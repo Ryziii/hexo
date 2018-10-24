@@ -1,5 +1,5 @@
 ---
-title: servlet笔记
+title: servlet笔记、转发与重定向
 date: 2018-10-16 17:29:49
 tags:
 	- java web
@@ -31,7 +31,8 @@ servletContext表示整个javaweb工程
 servletConfig表示某一个servlet中的配置文件  
 
 转发和重定向：
-
+- 转发：request.getRequestDispatcher("目标地址").forward(request,response);
+- 重定向：response.sendRedirect("目标地址");
 1. 转发调用HttpServletRequest，重定向调用HttpServletResponse
-2. 转发浏览器地址栏的url不会改变，重定向会改变
-3. 转发请求一次服务器，重定向请求两次
+2. 使用转发不会改变浏览器地址栏的url，转发前后url一样；重定向会改变浏览器url。
+3. 转发只请求一次服务器，重定向请求服务器两次。

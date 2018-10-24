@@ -1,7 +1,8 @@
 {
   "name" : "source",
   "fileExtension" : ".md",
-  "autoUploadInsertedImage" : false,
+  "autoUploadInsertedImageKey" : "微博图床-http:\/\/127.0.0.1:8088\/upload",
+  "autoUploadInsertedImage" : true,
   "folderType" : 11,
   "mediaFloder" : "img",
   "orderBy" : 0,
