@@ -1,6 +1,7 @@
 ---
-title: java过滤器
+title: java过滤器&&监听器
 date: 2018-10-24 15:28:23
+updated: 2018/10/25 17:33
 tags:
     - java web
 ---
@@ -26,3 +27,9 @@ tags:
     - 在一个web应用中，多个过滤器组合起来称之为一个过滤器链
     - 过滤器的调用顺序取决于过滤器在web.xml
     - 文件中的注册顺序(注册顺序决定的事过滤器预处理的调用顺序，响应后处理调用顺序是注册顺序的逆序  )
+
+1. filter-mapping子元素dispatcheer
+    - REQUEST(默认)
+    - INCLUDE 需要在jsp中使用<jsp:include page="/xxx.jsp"/>
+    - FORWARD 使用forward转发
+    - ERROR 错误，需要定义error-page
