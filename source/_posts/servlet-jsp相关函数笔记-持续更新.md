@@ -1,8 +1,9 @@
 ---
 title: java ee学习过程中使用到的一些函数与技巧(持续更新)
-date: 2018-10-23 15:51:43
 tags:
-    - java ee
+  - java ee
+abbrlink: 4b57d472
+date: 2018-10-23 15:51:43
 ---
 ### servlet用到的基础函数与技巧
 servlet中获取传过来的url地址：request.getRequestUrl()

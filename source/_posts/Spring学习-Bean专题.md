@@ -1,8 +1,9 @@
 ---
 title: Spring学习-Bean装配专题
-date: 2018-10-25 16:33:49
 tags:
-    - Spring
+  - Spring
+abbrlink: 23f4f4f6
+date: 2018-10-25 16:33:49
 ---
 ## Bean配置项
 - Id：唯一标识

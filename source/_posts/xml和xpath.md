@@ -1,11 +1,12 @@
 ---
 title: xml和xpath
-date: 2018-10-16 10:46:54
 tags:
-	- java web
+  - java web
+abbrlink: 888f9884
+date: 2018-10-16 10:46:54
 ---
 
-1. xml允许使用实体引用表示特殊字符：![][image-1]cdata:\<![CDATA[文本内容]]\>
+1. xml允许使用实体引用表示特殊字符：![][image-1]`cdata:\<![CDATA[文本内容]]\>`
 
 2. xml解析方式
 
@@ -40,7 +41,7 @@ tags:
 	  - /list/demo/xxx绝对路径
 	  - list/demo/xxx相对路径
 
-   4. xpath基础语法：xpath使用路径表达式定位xml文档中的节点和节点集￼￼￼
+   4. xpath基础语法：xpath使用路径表达式定位xml文档中的节点和节点集
 
 [image-1]:	https://ws1.sinaimg.cn/mw690/6bdd7ec4gy1fw9vgdb3ecj20yi0aedjr.jpg
 [image-2]:	https://ws1.sinaimg.cn/mw690/6bdd7ec4gy1fw9wvumyntj214a0hwaoo.jpg

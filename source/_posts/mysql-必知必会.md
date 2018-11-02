@@ -1,8 +1,9 @@
 ---
-title: 'mysql 必知必会'
-date: 2018-10-22 15:38:47
+title: mysql 必知必会
 tags:
-    - mysql
+  - mysql
+abbrlink: 73f3eb27
+date: 2018-10-22 15:38:47
 ---
 
 ### 第四章-mysql检索 限定

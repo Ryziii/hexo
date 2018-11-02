@@ -1,8 +1,9 @@
 ---
 title: EL表达式和JSTL
-date: 2018-10-18 16:12:28
 tags:
-	- java web
+  - java web
+abbrlink: 3a9cff33
+date: 2018-10-18 16:12:28
 ---
 
 1. - EL表达式：Expression Language（表达式语言），目的是替代JSP页面中的复杂代码。

@@ -1,9 +1,10 @@
 ---
 title: core java笔记(第四章-对象与类)
-date: 2018-09-28 13:25:23
 tags:
-	- core java
-	- java
+  - core java
+  - java
+abbrlink: 807b4761
+date: 2018-09-28 13:25:23
 ---
 
 1. **方法重载:**

@@ -1,8 +1,9 @@
 ---
 title: servlet笔记、转发与重定向
-date: 2018-10-16 17:29:49
 tags:
-	- java web
+  - java web
+abbrlink: 85ffea81
+date: 2018-10-16 17:29:49
 ---
 
 Servlet:servlet是用来处理用户请求的小程序

@@ -1,8 +1,9 @@
 ---
 title: MVC开发流程与文件上传笔记
-date: 2018-10-17 15:03:11
 tags:
-	- java web
+  - java web
+abbrlink: 88f3c71a
+date: 2018-10-17 15:03:11
 ---
 
 ![](https://ws1.sinaimg.cn/mw690/6bdd7ec4gy1fwb8ennb3ij21a40o611k.jpg)

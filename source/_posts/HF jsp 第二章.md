@@ -1,8 +1,9 @@
 ---
 title: HF jsp 第二章
-date: 2018-08-30 11:18:03
 tags:
-	- head first JSP&Servlet
+  - head first JSP&Servlet
+abbrlink: 26afac5e
+date: 2018-08-30 11:18:03
 ---
 
 

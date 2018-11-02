@@ -1,8 +1,9 @@
 ---
 title: idea和eclipse javaweb打开tomcat404解决办法
-date: 2018-10-14 23:44:24
 tags:
-	- java web
+  - java web
+abbrlink: df331d5c
+date: 2018-10-14 23:44:24
 ---
 
 使用idea打开eclipse创建的javaweb项目运行tomcat会出现404

@@ -1,10 +1,11 @@
 ---
 title: Spring学习
-date: 2018-10-25 14:38:11
 tags:
-    - Spring
+  - Spring
+abbrlink: ac1ae772
+date: 2018-10-25 14:38:11
 ---
-# spring是什么
+## spring是什么
 Spring是一个开源框架，为企业应用开发的复杂性而创建
 Spring是一个轻量级的控制反转(IoC)和面向切面(AOD)的容器框架
 - 从大小和开销方面而言Spring都是轻量的

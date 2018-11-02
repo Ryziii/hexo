@@ -1,9 +1,10 @@
 ---
 title: core java笔记(第五章-继承)
-date: 2018-10-10 11:57:50
 tags:
-	- core java
-	- java
+  - core java
+  - java
+abbrlink: dd734bac
+date: 2018-10-10 11:57:50
 ---
 
 1. **超类与子类：**

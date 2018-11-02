@@ -1,8 +1,9 @@
 ---
 title: Spring学习-IOC专题
-date: 2018-10-25 14:48:09
 tags:
-    - Spring
+  - Spring
+abbrlink: a99cbda8
+date: 2018-10-25 14:48:09
 ---
 ## 什么是接口？
 - 用于沟通的中介物的抽象化

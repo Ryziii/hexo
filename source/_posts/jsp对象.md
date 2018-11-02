@@ -1,8 +1,9 @@
 ---
 title: jsp内置对象
-date: 2018-10-15 09:34:07
 tags:
-	- java web
+  - java web
+abbrlink: ba1c11f7
+date: 2018-10-15 09:34:07
 ---
 
 1. **request：**

@@ -1,11 +1,12 @@
 ---
 title: java过滤器&&监听器
-date: 2018-10-24 15:28:23
-updated: 2018/10/25 17:33
+updated: '2018/10/25 17:33'
 tags:
-    - java web
+  - java web
+abbrlink: '4e094881'
+date: 2018-10-24 15:28:23
 ---
-### 过滤器
+## 过滤器
 过滤器是对web资源的请求拦截，完成特殊操作，尤其是对请求的预处理。
 1. 应用场景
     - web资源权限访问控制
@@ -33,3 +34,20 @@ tags:
     - INCLUDE 需要在jsp中使用<jsp:include page="/xxx.jsp"/>
     - FORWARD 使用forward转发
     - ERROR 错误，需要定义error-page
+
+## 监听器
+可参照[这里](https://blog.csdn.net/yerenyuan_pku/article/details/52475065)
+1. 按监听器对象分类：
+    - ServletContext context上下文监听
+    - HttpSession   回话监听
+    - ServletRequest 请求对象监听
+2. 按监听事件分类
+    - 域对象自身的创建和销毁事件监听器(以生命周期)
+        1. ServletContext->ServletContextListener
+        2. HttpSession->HttpSessionListener
+        3. ServletRequest->ServletRequestListener
+    - 域对象中属性的创建、替换和消除事件监听器
+        1. ServletContext->ServletContextAttributeListener
+        2. HttpSession->HttpSessionAttributeListener
+        3. ServletRequest->ServletRequestAttributeListener
+    - 绑定在session中的某个对象的状态事件监听器(HttpSessionBindingListener)
