@@ -47,7 +47,9 @@ date: 2018-10-24 15:28:23
         2. HttpSession->HttpSessionListener
         3. ServletRequest->ServletRequestListener
     - 域对象中属性的创建、替换和消除事件监听器
-        1. ServletContext->ServletContextAttributeListener
-        2. HttpSession->HttpSessionAttributeListener
-        3. ServletRequest->ServletRequestAttributeListener
+        4. ServletContext->ServletContextAttributeListener
+        5. HttpSession->HttpSessionAttributeListener
+        6. ServletRequest->ServletRequestAttributeListener
     - 绑定在session中的某个对象的状态事件监听器(HttpSessionBindingListener)
+        7. valueBound(HttpSessionBindingEvent event)    当监听器对戏那个绑定至HTTP会话调用
+        8. valueUnbound(HttpSessionBindingEvent event)  当监听器对象从HTTP会话内修改、移除或会话销毁时调用

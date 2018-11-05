@@ -1,5 +1,5 @@
 ---
-title: 用java来监测文件夹变化并自动部署hexo
+title: 用Java来监测文件夹变化并自动部署hexo
 urlname: hexo_permalink
 tags:
   - hexo
